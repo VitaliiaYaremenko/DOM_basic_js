@@ -8,5 +8,9 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "func-style": ["error", "expression"],
+        "quotes": ["error", "single"],
+        "func-names": ["error", "never"],
+        "linebreak-style": ["error", "windows"]
     }
 }
