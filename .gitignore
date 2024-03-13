@@ -1,0 +1,15 @@
+.DS_Store
+.vscode/
+.vim/
+.idea/
+*.pyc
+*.class
+*.log
+node_modules/
+Pipfile.lock
+*.sqlite3
+.env
+backup/
+.settings/
+temp/
+.data/

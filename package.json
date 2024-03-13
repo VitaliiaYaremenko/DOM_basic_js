@@ -1,0 +1,28 @@
+{
+  "name": "dom_basic_js",
+  "version": "1.0.0",
+  "description": "**Homework description**",
+  "main": "solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VitaliiaYaremenko/DOM_basic_js.git"
+  },
+  "author": "Vitaliia Yaremenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiaYaremenko/DOM_basic_js/issues"
+  },
+  "homepage": "https://github.com/VitaliiaYaremenko/DOM_basic_js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "3.2.5"
+  }
+}
