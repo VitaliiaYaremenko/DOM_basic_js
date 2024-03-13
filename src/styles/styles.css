@@ -1,0 +1,48 @@
+body {
+    background-color: #D8D8D6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.check__title {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding-bottom: 25px;
+}
+
+.inform__input {
+    background-color: antiquewhite;
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 25px 0;
+}
+
+.check__text {
+    font-size: 18px;
+}
+
+.check__input {
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: 1px solid darkblue;
+}
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid cadetblue;
+    border-radius: 25px;
+    padding: 10px 10px;
+}
