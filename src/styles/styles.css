@@ -1,0 +1,18 @@
+body {
+    height: 200px;
+    background: hsla(186, 33%, 94%, 1);
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form {
+    background: hsla(298, 68%, 90%, 1);
+    background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+    -webkit-box-shadow: -3px 0px 13px 3px rgba(0,0,0,0.91);
+    box-shadow:-3px -1px 19px -1px rgba(0,0,0,0.91);
+}
+
+.hidden {
+    display: none;
+}
