@@ -1,6 +1,5 @@
 (function () {
   const form = document.querySelector('#form');
-  const ulItem = document.querySelector('#dataUserList');
   const dataFormKey = 'formData';
 
   form.addEventListener('submit', (event) => {
@@ -21,9 +20,22 @@
         return;
       }
     }
-
     localStorage.setItem(dataFormKey, JSON.stringify(formData));
     window.location.href = 'about.html';
+
     // ______
+    const data = JSON.parse(localStorage.getItem(dataFormKey));
+
+    if (data && window.location.pathname === '/about.html') {
+      const ulItem = document.querySelector('#dataUserItem');
+
+      for (const key in data) {
+        const createNewLi = document.createElement('li');
+        createNewLi.className = 'data-user-list';
+        createNewLi.innerHTML = `${key}: ${data}`;
+        ulItem.appendChild(createNewLi);
+        return;
+      }
+    }
   });
 }());
