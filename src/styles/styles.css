@@ -16,3 +16,11 @@ body {
 .hidden {
     display: none;
 }
+
+.standard {
+    padding: 15px;
+    border: 1px solid #242a1e;
+    border-radius: 4px;
+    color: #547c55;
+    background-color: #c7efd3;
+}
