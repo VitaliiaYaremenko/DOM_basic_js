@@ -48,7 +48,6 @@ const DATA_KEY = 'formData';
       ul.append(li);
     }
   };
-
   if (location.pathname.includes('index.html')) {
     formPage();
   } else if (location.pathname.includes('about.html')) {
