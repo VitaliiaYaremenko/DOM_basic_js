@@ -15,30 +15,31 @@
             <div class="row align-items-center">
                 <h1 class="text-center fs-2 mb-5 mt-4 p-3 text-primary-emphasis">Створіть своє опитування</h1>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-6">
+                    <div class="col-9" data-content>
                         <form class="form p-3 mb-5 border rounded-3 border-secondary" data-form-survey>
-                            <div class="form-input mb-3">
-                                <div class="mb-3 hidden">
-                                    <label class="form-label mb-3 text-primary-emphasis fs-4">Введіть назву опитування</label>
-                                    <input name="nameSurvey" type="text" class="form-control name-title">
+                            <div class="form-container">
+                                <div class="form-input mb-3">
+                                    <div class="mb-3 hidden">
+                                        <label class="form-label mb-3 text-primary-emphasis fs-4">Введіть назву опитування</label>
+                                        <input name="nameSurvey" type="text" class="form-control name-title">
+                                    </div>
+                                    <button type="button" id="btnName" class="showButton btn p-2 btn-info text-primary-emphasis">Додати назву</button>
                                 </div>
-                                <button type="button" id="btnName" class="showButton btn p-2 btn-info text-primary-emphasis">Додати назву</button>
-                            </div>
-                            <div class="form-input mb-3">
-                                <div class="mb-3 hidden">
-                                    <label class="form-label mb-3 text-primary-emphasis fs-4">Введіть запитання</label>
-                                    <input name="nameSurvey" type="text" class="form-control mb-2">
+                                <div class="form-input mb-3">
+                                    <div class="mb-3 hidden">
+                                        <label class="form-label mb-3 text-primary-emphasis fs-4">Введіть запитання</label>
+                                        <input name="nameQuestion" type="text" class="form-control mb-2">
+                                    </div>
+                                    <button type="button" id="btnQuestion" class="showButton btn p-2 btn-info text-primary-emphasis">Додати запитання</button>
                                 </div>
-                                <button type="button" id="btnQuestions" class="showButton btn p-2 btn-info text-primary-emphasis">Додати запитання</button>
-                            </div>
-                            <div class="form-input mb-3 answer-block">
-                                <div class="mb-3 hidden answer-container">
-                                    <label class="form-label mb-3 text-primary-emphasis fs-4">Додайте варіанти відповідей</label>
 
+                                <div class="form-input mb-3">
+                                    <div class="mb-3" data-answers-container></div>
+                                    <button type="button" id="btnAnswers" class="btn p-2 btn-info text-primary-emphasis">Додати варіанти</button>
                                 </div>
-                                <button type="button" id="btnAnswers" class="showButton btn p-2 btn-info text-primary-emphasis">Додати варіанти</button>
+
+                                <button type="submit" id="btnSave" class="btn fs-6 p-2 mb-5  btn-info text-primary-emphasis">Створити опитування</button>
                             </div>
-                            <button type="submit" id="btnSave" class="btn fs-6 p-2 mb-5  btn-info text-primary-emphasis">Створити опитування</button>
                         </form>
                     </div>
                 </div>
